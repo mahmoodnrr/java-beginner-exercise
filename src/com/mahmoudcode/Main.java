@@ -1,11 +1,10 @@
 package com.mahmoudcode;
 
-import java.util.Arrays;
+import com.mahmoudcode.exercise.ArrayExercise;
 
 public class Main {
     public static void main(String[] args) {
-
-        String[] name = new String[5];
-
+        ArrayExercise.exercise_1();
+        ArrayExercise.exercise5(args);
     }
 }
