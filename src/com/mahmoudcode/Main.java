@@ -1,23 +1,24 @@
 package com.mahmoudcode;
 
-import com.mahmoudcode.exercise.Challenge4;
+import com.mahmoudcode.exercise.*;
 
 import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
 
         /* Challenge 1 */
-//        ArrayExercise.exercise_1();
-//        ArrayExercise.exercise5(args);
+        ArrayExercise.exercise_1();
+        ArrayExercise.exercise5(args);
 
         /* Challenge 2 */
-//        ConditionalsExercise.printExercise();
+        ConditionalsExercise.printExercise();
 
         /* Challenge 3 */
-//        Challenge3.reverseString("Hello");
-//        Challenge3.trimSpaces("   amig os cod e  ");
-//        Challenge3.longestString(new String[]{"hello", "bingo", "ola", "bye", "ciao"});
+        Challenge3.reverseString("Hello");
+        Challenge3.trimSpaces("   amig os cod e  ");
+        Challenge3.longestString(new String[]{"hello", "bingo", "ola", "bye", "ciao"});
 
         /* Challenge 4 */
         int num1 = 10;
@@ -63,5 +64,11 @@ public class Main {
         counter = Challenge4.getNumberOfWords(sentence2);
         System.out.println(sentence2);
         System.out.println("Total number of words " + counter);
+
+        /* Challenge 5 */
+        ScannerExercise.exercise1();
+        ScannerExercise.exercise2(args);
+        ScannerExercise.exercise3();
+        ScannerExercise.exercise4();
     }
 }
