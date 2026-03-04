@@ -1,6 +1,7 @@
 package com.mahmoudcode;
 
 import com.mahmoudcode.exercise.*;
+import com.mahmoudcode.exercise.email.EmailValidator;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -80,8 +81,14 @@ public class Main {
 
         /* Challenge 7 */
         EnumsExercise.printTShirtSizes();
-        EnumsExercise.printTShirtSizesInLowerCase();
+//        EnumsExercise.printTShirtSizesInLowerCase();
 
+        /* Challenge 8 */
+        EmailValidator email = new EmailValidator();
+        String mockEmail1 = "test123@gmail.com";
+        String mockEmail2 = "test123gmail.com";
 
+        System.out.println("Is " + mockEmail1 + " a valid email? " + email.isValidEmail(mockEmail1));
+        System.out.println("Is " + mockEmail2 + " a valid email? " + email.isValidEmail(mockEmail2));
     }
 }
