@@ -77,5 +77,11 @@ public class Main {
         DatesExercise.exercise2(1, 11, 2026);
         DatesExercise.exercise3(1, 11, 2000);
         System.out.println(DatesExercise.exercise4(LocalDate.of(1998, 12, 1)));
+
+        /* Challenge 7 */
+        EnumsExercise.printTShirtSizes();
+        EnumsExercise.printTShirtSizesInLowerCase();
+
+
     }
 }
