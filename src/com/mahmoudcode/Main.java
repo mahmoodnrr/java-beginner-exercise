@@ -2,6 +2,7 @@ package com.mahmoudcode;
 
 import com.mahmoudcode.exercise.*;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 
 
@@ -70,5 +71,11 @@ public class Main {
         ScannerExercise.exercise2(args);
         ScannerExercise.exercise3();
         ScannerExercise.exercise4();
+
+        /* Challenge 6 */
+        DatesExercise.exercise1();
+        DatesExercise.exercise2(1, 11, 2026);
+        DatesExercise.exercise3(1, 11, 2000);
+        System.out.println(DatesExercise.exercise4(LocalDate.of(1998, 12, 1)));
     }
 }
