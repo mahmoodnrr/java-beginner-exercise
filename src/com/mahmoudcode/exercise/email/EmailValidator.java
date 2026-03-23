@@ -9,7 +9,7 @@ public class EmailValidator {
 
     /**
      * Exercise 2
-     * This method is only accessible within this class
+     * Now change the your public method to private and try to run. What happens?
      */
 //    private boolean isValidEmail(String email){
 //
@@ -23,7 +23,7 @@ public class EmailValidator {
 
     /**
      * Exercise 3
-     * This method is only accessible within this class
+     * Do the same but this time change your method to have no access modifier
      */
 
 //    boolean isValidEmail(String email){

@@ -1,4 +1,4 @@
-package com.mahmoudcode.exercise;
+package com.mahmoudcode.exercise.enums;
 
 public enum TShirtSize {
     S,

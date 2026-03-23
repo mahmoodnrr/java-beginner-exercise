@@ -1,5 +1,7 @@
 package com.mahmoudcode.exercise;
 
+import com.mahmoudcode.exercise.enums.TShirtSize;
+
 public class EnumsExercise {
 
     public static void printTShirtSizes(){
